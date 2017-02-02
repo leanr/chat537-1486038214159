@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: chat537
+  host: chat537
+  disk_quota: 1024M
+  services:
+  - redis-chatter
